@@ -112,23 +112,6 @@
 3. Login with Google, GitHub, or BuilderId
 4. Manage your Kiro accounts with ease!
 
-## 🔨 Build from Source (Fork Users)
-
-If you want to build the application yourself:
-
-1. **Fork** this repository to your account
-2. Go to **Actions** tab and enable workflows
-3. Click **"Build (Fork)"** workflow on the left
-4. Click **"Run workflow"** button to start building
-5. Wait ~15 minutes for the build to complete
-6. Download artifacts from the completed workflow run
-
-> ⚠️ Self-built versions are unsigned by default. Windows will show a security warning during installation.
->
-> 💡 To enable code signing, add these secrets to your fork: `TAURI_SIGNING_PRIVATE_KEY` and `TAURI_SIGNING_PRIVATE_KEY_PASSWORD`
->
-> ⚠️ The "Release" workflow is for the author only (requires private repo access). Fork users should use "Build (Fork)" workflow instead.
-
 ## ❓ FAQ
 
 **Q: Login failed?**
@@ -152,13 +135,26 @@ A: Windows requires admin privileges to modify registry. Right-click the app and
 
 [![Star History Chart](https://api.star-history.com/svg?repos=hj01857655/kiro-account-manager&type=Date)](https://star-history.com/#hj01857655/kiro-account-manager&Date)
 
+## 🚫 Source Code Notice
+
+**The backend source code (Rust) has been removed from this repository.**
+
+Due to some individuals using this open-source project for commercial purposes (charging fees), I have decided to close-source the backend code. Only the frontend code and pre-built binaries are available now.
+
+**This project is and will always be FREE. If anyone charges you for this software, you have been scammed!**
+
+- ✅ Free download from [Releases](https://github.com/hj01857655/kiro-account-manager/releases)
+- ✅ Free to use for personal purposes
+- ❌ Commercial use is strictly prohibited
+- ❌ Reselling or charging for this software is prohibited
+
 ## ⚠️ Disclaimer
 
 This software is for learning and communication purposes only. Do not use for commercial purposes. Users are responsible for any consequences.
 
 ## 📄 License
 
-[GPL-3.0](LICENSE) - Modifications must be open-sourced.
+[GPL-3.0](LICENSE) - Modifications must be open-sourced. Commercial use is prohibited.
 
 ---
 
